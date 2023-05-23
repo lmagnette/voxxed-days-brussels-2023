@@ -1,0 +1,407 @@
+GraalVM Native Image: Generating 'spring-demo' (executable)...
+========================================================================================================================
+Warning: Could not resolve com.github.luben.zstd.ZstdCompressCtx for reflection configuration. Reason: java.lang.ClassNotFoundException: com.github.luben.zstd.ZstdCompressCtx.
+Warning: Could not resolve io.netty.handler.ssl.OpenSslClientSessionCache for reflection configuration. Reason: java.lang.NoClassDefFoundError: io/netty/internal/tcnative/SSLSessionCache.
+Warning: Could not resolve io.netty.handler.ssl.ReferenceCountedOpenSslClientContext$ExtendedTrustManagerVerifyCallback for reflection configuration. Reason: java.lang.NoClassDefFoundError: io/netty/internal/tcnative/CertificateVerifier.
+Warning: Could not resolve io.netty.handler.ssl.ReferenceCountedOpenSslServerContext$ExtendedTrustManagerVerifyCallback for reflection configuration. Reason: java.lang.NoClassDefFoundError: io/netty/internal/tcnative/CertificateVerifier.
+Warning: Could not resolve io.netty.handler.ssl.ReferenceCountedOpenSslServerContext$OpenSslServerCertificateCallback for reflection configuration. Reason: java.lang.NoClassDefFoundError: io/netty/internal/tcnative/CertificateCallback.
+Warning: Could not resolve org.conscrypt.ConscryptEngine for reflection configuration. Reason: java.lang.ClassNotFoundException: org.conscrypt.ConscryptEngine.
+Warning: Could not resolve org.conscrypt.ConscryptEngine for reflection configuration. Reason: java.lang.ClassNotFoundException: org.conscrypt.ConscryptEngine.
+Warning: Could not resolve org.conscrypt.ConscryptEngine for reflection configuration. Reason: java.lang.ClassNotFoundException: org.conscrypt.ConscryptEngine.
+Warning: Could not resolve com.github.luben.zstd.ZstdCompressCtx for reflection configuration. Reason: java.lang.ClassNotFoundException: com.github.luben.zstd.ZstdCompressCtx.
+Warning: Could not resolve io.netty.handler.ssl.OpenSslClientSessionCache for reflection configuration. Reason: java.lang.NoClassDefFoundError: io/netty/internal/tcnative/SSLSessionCache.
+Warning: Could not resolve io.netty.handler.ssl.ReferenceCountedOpenSslClientContext$ExtendedTrustManagerVerifyCallback for reflection configuration. Reason: java.lang.NoClassDefFoundError: io/netty/internal/tcnative/CertificateVerifier.
+Warning: Could not resolve io.netty.handler.ssl.ReferenceCountedOpenSslServerContext$ExtendedTrustManagerVerifyCallback for reflection configuration. Reason: java.lang.NoClassDefFoundError: io/netty/internal/tcnative/CertificateVerifier.
+Warning: Could not resolve io.netty.handler.ssl.ReferenceCountedOpenSslServerContext$OpenSslServerCertificateCallback for reflection configuration. Reason: java.lang.NoClassDefFoundError: io/netty/internal/tcnative/CertificateCallback.
+Warning: Could not resolve org.conscrypt.ConscryptEngine for reflection configuration. Reason: java.lang.ClassNotFoundException: org.conscrypt.ConscryptEngine.
+Warning: Could not resolve org.conscrypt.ConscryptEngine for reflection configuration. Reason: java.lang.ClassNotFoundException: org.conscrypt.ConscryptEngine.
+Warning: Could not resolve org.conscrypt.ConscryptEngine for reflection configuration. Reason: java.lang.ClassNotFoundException: org.conscrypt.ConscryptEngine.
+Warning: Method ch.qos.logback.core.encoder.LayoutWrappingEncoder.setParent(Appender) not found.
+Warning: Could not resolve com.aayushatharva.brotli4j.Brotli4jLoader for reflection configuration. Reason: java.lang.ClassNotFoundException: com.aayushatharva.brotli4j.Brotli4jLoader.
+Warning: Could not resolve com.github.luben.zstd.Zstd for reflection configuration. Reason: java.lang.ClassNotFoundException: com.github.luben.zstd.Zstd.
+Warning: Could not resolve com.ning.compress.lzf.impl.UnsafeChunkDecoder for reflection configuration. Reason: java.lang.ClassNotFoundException: com.ning.compress.lzf.impl.UnsafeChunkDecoder.
+Warning: Could not register io.netty.handler.codec.compression.Lz4FrameDecoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: net/jpountz/lz4/LZ4Exception.
+Warning: Could not register io.netty.handler.codec.compression.Lz4FrameEncoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: net/jpountz/lz4/LZ4Exception.
+Warning: Could not register io.netty.handler.codec.marshalling.CompatibleMarshallingDecoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: org/jboss/marshalling/ByteInput.
+Warning: Could not register io.netty.handler.codec.marshalling.CompatibleMarshallingEncoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: org/jboss/marshalling/ByteOutput.
+Warning: Could not register io.netty.handler.codec.marshalling.MarshallingDecoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: org/jboss/marshalling/ByteInput.
+Warning: Could not register io.netty.handler.codec.marshalling.MarshallingEncoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: org/jboss/marshalling/ByteOutput.
+Warning: Could not register io.netty.handler.codec.protobuf.ProtobufDecoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: com/google/protobuf/ExtensionRegistryLite.
+Warning: Could not resolve org.apache.commons.logging.impl.Log4JLogger for reflection configuration. Reason: java.lang.ClassNotFoundException: org.apache.commons.logging.impl.Log4JLogger.
+Warning: Could not resolve org.apache.commons.logging.impl.LogFactoryImpl for reflection configuration. Reason: java.lang.ClassNotFoundException: org.apache.commons.logging.impl.LogFactoryImpl.
+Warning: Could not resolve org.apache.commons.logging.impl.WeakHashtable for reflection configuration. Reason: java.lang.ClassNotFoundException: org.apache.commons.logging.impl.WeakHashtable.
+Warning: Could not resolve org.apache.log4j.Level for reflection configuration. Reason: java.lang.ClassNotFoundException: org.apache.log4j.Level.
+Warning: Could not resolve org.apache.log4j.Priority for reflection configuration. Reason: java.lang.ClassNotFoundException: org.apache.log4j.Priority.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.COMPOSITE$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.COMPOSITE$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.DH$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.DH$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.DSA$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.DSA$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.DSTU4145$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.DSTU4145$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.EC$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.EC$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.ECGOST$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.ECGOST$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.EdEC$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.EdEC$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.ElGamal$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.ElGamal$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.GM$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.GM$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.GOST$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.GOST$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.IES$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.IES$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.RSA$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.RSA$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.X509$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.X509$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.rsa.DigestSignatureSpi$SHA256 for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.rsa.DigestSignatureSpi$SHA256.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.x509.CertificateFactory for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.x509.CertificateFactory.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Blake2b$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Blake2b$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Blake2s$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Blake2s$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.DSTU7564$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.DSTU7564$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.GOST3411$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.GOST3411$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Haraka$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Haraka$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Keccak$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Keccak$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.MD2$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.MD2$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.MD4$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.MD4$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.MD5$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.MD5$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.RIPEMD128$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.RIPEMD128$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.RIPEMD160$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.RIPEMD160$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.RIPEMD256$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.RIPEMD256$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.RIPEMD320$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.RIPEMD320$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SHA1$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SHA1$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SHA224$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SHA224$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SHA256$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SHA256$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SHA3$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SHA3$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SHA384$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SHA384$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SHA512$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SHA512$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SM3$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SM3$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Skein$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Skein$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Tiger$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Tiger$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Whirlpool$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Whirlpool$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.drbg.DRBG$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.drbg.DRBG$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.keystore.BC$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.keystore.BC$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.keystore.BCFKS$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.keystore.BCFKS$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.keystore.PKCS12$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.keystore.PKCS12$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.AES$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.AES$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.ARC4$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.ARC4$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.ARIA$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.ARIA$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Blowfish$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Blowfish$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.CAST5$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.CAST5$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.CAST6$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.CAST6$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Camellia$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Camellia$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.ChaCha$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.ChaCha$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.DES$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.DES$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.DESede$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.DESede$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.DSTU7624$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.DSTU7624$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.GOST28147$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.GOST28147$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.GOST3412_2015$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.GOST3412_2015$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Grain128$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Grain128$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Grainv1$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Grainv1$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.HC128$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.HC128$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.HC256$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.HC256$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.IDEA$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.IDEA$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Noekeon$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Noekeon$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.OpenSSLPBKDF$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.OpenSSLPBKDF$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.PBEPBKDF1$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.PBEPBKDF1$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.PBEPBKDF2$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.PBEPBKDF2$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.PBEPKCS12$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.PBEPKCS12$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Poly1305$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Poly1305$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.RC2$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.RC2$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.RC5$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.RC5$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.RC6$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.RC6$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Rijndael$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Rijndael$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.SCRYPT$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.SCRYPT$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.SEED$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.SEED$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.SM4$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.SM4$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Salsa20$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Salsa20$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Serpent$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Serpent$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Shacal2$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Shacal2$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.SipHash$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.SipHash$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.SipHash128$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.SipHash128$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Skipjack$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Skipjack$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.TEA$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.TEA$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.TLSKDF$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.TLSKDF$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Threefish$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Threefish$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Twofish$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Twofish$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.VMPC$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.VMPC$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.VMPCKSA3$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.VMPCKSA3$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.XSalsa20$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.XSalsa20$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.XTEA$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.XTEA$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Zuc$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Zuc$Mappings.
+Warning: Could not resolve org.conscrypt.Conscrypt for reflection configuration. Reason: java.lang.ClassNotFoundException: org.conscrypt.Conscrypt.
+Warning: Could not resolve org.conscrypt.OpenSSLContextImpl$TLSv13 for reflection configuration. Reason: java.lang.ClassNotFoundException: org.conscrypt.OpenSSLContextImpl$TLSv13.
+Warning: Could not resolve org.hamcrest.number.OrderingComparison for reflection configuration. Reason: java.lang.ClassNotFoundException: org.hamcrest.number.OrderingComparison.
+Warning: Could not resolve jakarta.validation.ConstraintViolation for reflection configuration. Reason: java.lang.ClassNotFoundException: jakarta.validation.ConstraintViolation.
+Warning: Could not resolve oracle.jdbc.OracleConnection for reflection configuration. Reason: java.lang.ClassNotFoundException: oracle.jdbc.OracleConnection.
+Warning: Could not resolve org.h2.Driver for reflection configuration. Reason: java.lang.ClassNotFoundException: org.h2.Driver.
+Warning: Could not register method org.hibernate.boot.beanvalidation.TypeSafeActivator.activate(ActivationContext) for reflection. Reason: java.lang.NoClassDefFoundError: jakarta/validation/ValidatorFactory.
+Warning: Could not resolve org.jboss.logmanager.LogManager for reflection configuration. Reason: java.lang.ClassNotFoundException: org.jboss.logmanager.LogManager.
+Warning: Method com.zaxxer.hikari.HikariConfig.getScheduledExecutorService() not found.
+Warning: Method com.zaxxer.hikari.HikariConfig.isInitializationFailFast() not found.
+Warning: Method com.zaxxer.hikari.HikariConfig.isJdbc4ConnectionTest() not found.
+Warning: Method com.zaxxer.hikari.HikariConfig.setInitializationFailFast(boolean) not found.
+Warning: Method com.zaxxer.hikari.HikariConfig.setJdbc4ConnectionTest(boolean) not found.
+Warning: Method com.zaxxer.hikari.HikariConfig.setScheduledExecutorService(ScheduledThreadPoolExecutor) not found.
+Warning: Method com.zaxxer.hikari.HikariConfig.getScheduledExecutorService() not found.
+Warning: Method com.zaxxer.hikari.HikariConfig.isInitializationFailFast() not found.
+Warning: Method com.zaxxer.hikari.HikariConfig.isJdbc4ConnectionTest() not found.
+Warning: Method com.zaxxer.hikari.HikariConfig.setInitializationFailFast(boolean) not found.
+Warning: Method com.zaxxer.hikari.HikariConfig.setJdbc4ConnectionTest(boolean) not found.
+Warning: Method com.zaxxer.hikari.HikariConfig.setScheduledExecutorService(ScheduledThreadPoolExecutor) not found.
+Warning: Method ch.qos.logback.core.encoder.LayoutWrappingEncoder.setParent(Appender) not found.
+Warning: Could not resolve com.aayushatharva.brotli4j.Brotli4jLoader for reflection configuration. Reason: java.lang.ClassNotFoundException: com.aayushatharva.brotli4j.Brotli4jLoader.
+Warning: Could not resolve com.github.luben.zstd.Zstd for reflection configuration. Reason: java.lang.ClassNotFoundException: com.github.luben.zstd.Zstd.
+Warning: Could not resolve com.ning.compress.lzf.impl.UnsafeChunkDecoder for reflection configuration. Reason: java.lang.ClassNotFoundException: com.ning.compress.lzf.impl.UnsafeChunkDecoder.
+Warning: Could not register io.netty.handler.codec.compression.Lz4FrameDecoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: net/jpountz/lz4/LZ4Exception.
+Warning: Could not register io.netty.handler.codec.compression.Lz4FrameEncoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: net/jpountz/lz4/LZ4Exception.
+Warning: Could not register io.netty.handler.codec.marshalling.CompatibleMarshallingDecoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: org/jboss/marshalling/ByteInput.
+Warning: Could not register io.netty.handler.codec.marshalling.CompatibleMarshallingEncoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: org/jboss/marshalling/ByteOutput.
+Warning: Could not register io.netty.handler.codec.marshalling.MarshallingDecoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: org/jboss/marshalling/ByteInput.
+Warning: Could not register io.netty.handler.codec.marshalling.MarshallingEncoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: org/jboss/marshalling/ByteOutput.
+Warning: Could not register io.netty.handler.codec.protobuf.ProtobufDecoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: com/google/protobuf/ExtensionRegistryLite.
+Warning: Could not resolve org.apache.commons.logging.impl.Log4JLogger for reflection configuration. Reason: java.lang.ClassNotFoundException: org.apache.commons.logging.impl.Log4JLogger.
+Warning: Could not resolve org.apache.commons.logging.impl.LogFactoryImpl for reflection configuration. Reason: java.lang.ClassNotFoundException: org.apache.commons.logging.impl.LogFactoryImpl.
+Warning: Could not resolve org.apache.commons.logging.impl.WeakHashtable for reflection configuration. Reason: java.lang.ClassNotFoundException: org.apache.commons.logging.impl.WeakHashtable.
+Warning: Could not resolve org.apache.log4j.Level for reflection configuration. Reason: java.lang.ClassNotFoundException: org.apache.log4j.Level.
+Warning: Could not resolve org.apache.log4j.Priority for reflection configuration. Reason: java.lang.ClassNotFoundException: org.apache.log4j.Priority.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.COMPOSITE$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.COMPOSITE$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.DH$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.DH$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.DSA$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.DSA$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.DSTU4145$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.DSTU4145$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.EC$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.EC$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.ECGOST$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.ECGOST$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.EdEC$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.EdEC$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.ElGamal$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.ElGamal$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.GM$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.GM$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.GOST$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.GOST$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.IES$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.IES$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.RSA$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.RSA$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.X509$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.X509$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.rsa.DigestSignatureSpi$SHA256 for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.rsa.DigestSignatureSpi$SHA256.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.asymmetric.x509.CertificateFactory for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.asymmetric.x509.CertificateFactory.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Blake2b$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Blake2b$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Blake2s$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Blake2s$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.DSTU7564$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.DSTU7564$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.GOST3411$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.GOST3411$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Haraka$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Haraka$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Keccak$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Keccak$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.MD2$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.MD2$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.MD4$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.MD4$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.MD5$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.MD5$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.RIPEMD128$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.RIPEMD128$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.RIPEMD160$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.RIPEMD160$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.RIPEMD256$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.RIPEMD256$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.RIPEMD320$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.RIPEMD320$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SHA1$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SHA1$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SHA224$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SHA224$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SHA256$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SHA256$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SHA3$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SHA3$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SHA384$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SHA384$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SHA512$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SHA512$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.SM3$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.SM3$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Skein$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Skein$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Tiger$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Tiger$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.digest.Whirlpool$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.digest.Whirlpool$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.drbg.DRBG$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.drbg.DRBG$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.keystore.BC$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.keystore.BC$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.keystore.BCFKS$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.keystore.BCFKS$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.keystore.PKCS12$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.keystore.PKCS12$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.AES$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.AES$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.ARC4$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.ARC4$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.ARIA$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.ARIA$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Blowfish$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Blowfish$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.CAST5$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.CAST5$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.CAST6$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.CAST6$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Camellia$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Camellia$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.ChaCha$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.ChaCha$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.DES$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.DES$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.DESede$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.DESede$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.DSTU7624$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.DSTU7624$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.GOST28147$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.GOST28147$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.GOST3412_2015$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.GOST3412_2015$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Grain128$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Grain128$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Grainv1$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Grainv1$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.HC128$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.HC128$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.HC256$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.HC256$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.IDEA$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.IDEA$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Noekeon$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Noekeon$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.OpenSSLPBKDF$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.OpenSSLPBKDF$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.PBEPBKDF1$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.PBEPBKDF1$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.PBEPBKDF2$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.PBEPBKDF2$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.PBEPKCS12$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.PBEPKCS12$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Poly1305$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Poly1305$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.RC2$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.RC2$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.RC5$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.RC5$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.RC6$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.RC6$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Rijndael$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Rijndael$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.SCRYPT$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.SCRYPT$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.SEED$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.SEED$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.SM4$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.SM4$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Salsa20$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Salsa20$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Serpent$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Serpent$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Shacal2$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Shacal2$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.SipHash$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.SipHash$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.SipHash128$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.SipHash128$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Skipjack$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Skipjack$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.TEA$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.TEA$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.TLSKDF$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.TLSKDF$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Threefish$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Threefish$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Twofish$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Twofish$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.VMPC$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.VMPC$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.VMPCKSA3$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.VMPCKSA3$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.XSalsa20$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.XSalsa20$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.XTEA$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.XTEA$Mappings.
+Warning: Could not resolve org.bouncycastle.jcajce.provider.symmetric.Zuc$Mappings for reflection configuration. Reason: java.lang.ClassNotFoundException: org.bouncycastle.jcajce.provider.symmetric.Zuc$Mappings.
+Warning: Could not resolve org.conscrypt.Conscrypt for reflection configuration. Reason: java.lang.ClassNotFoundException: org.conscrypt.Conscrypt.
+Warning: Could not resolve org.conscrypt.OpenSSLContextImpl$TLSv13 for reflection configuration. Reason: java.lang.ClassNotFoundException: org.conscrypt.OpenSSLContextImpl$TLSv13.
+Warning: Could not resolve org.hamcrest.number.OrderingComparison for reflection configuration. Reason: java.lang.ClassNotFoundException: org.hamcrest.number.OrderingComparison.
+Warning: Could not resolve org.hibernate.service.jta.platform.internal.NoJtaPlatform for reflection configuration. Reason: java.lang.ClassNotFoundException: org.hibernate.service.jta.platform.internal.NoJtaPlatform.
+Warning: Could not resolve jakarta.validation.ConstraintViolation for reflection configuration. Reason: java.lang.ClassNotFoundException: jakarta.validation.ConstraintViolation.
+Warning: Could not resolve oracle.jdbc.OracleConnection for reflection configuration. Reason: java.lang.ClassNotFoundException: oracle.jdbc.OracleConnection.
+Warning: Could not resolve org.h2.Driver for reflection configuration. Reason: java.lang.ClassNotFoundException: org.h2.Driver.
+Warning: Could not register method org.hibernate.boot.beanvalidation.TypeSafeActivator.activate(ActivationContext) for reflection. Reason: java.lang.NoClassDefFoundError: jakarta/validation/ValidatorFactory.
+Warning: Could not resolve org.jboss.logmanager.LogManager for reflection configuration. Reason: java.lang.ClassNotFoundException: org.jboss.logmanager.LogManager.
+Warning: Could not register reactor.netty.channel.MicrometerChannelMetricsHandler$ConnectMetricsHandler: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: io/micrometer/core/instrument/Timer.
+Warning: Could not register reactor.netty.channel.MicrometerChannelMetricsHandler$TlsMetricsHandler: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: io/micrometer/core/instrument/Timer.
+Warning: Could not register io.netty.handler.codec.compression.Lz4FrameDecoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: net/jpountz/lz4/LZ4Exception.
+Warning: Could not register io.netty.handler.codec.compression.Lz4FrameEncoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: net/jpountz/lz4/LZ4Exception.
+Warning: Could not register io.netty.handler.codec.marshalling.CompatibleMarshallingDecoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: org/jboss/marshalling/ByteInput.
+Warning: Could not register io.netty.handler.codec.marshalling.CompatibleMarshallingEncoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: org/jboss/marshalling/ByteOutput.
+Warning: Could not register io.netty.handler.codec.marshalling.MarshallingDecoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: org/jboss/marshalling/ByteInput.
+Warning: Could not register io.netty.handler.codec.marshalling.MarshallingEncoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: org/jboss/marshalling/ByteOutput.
+Warning: Could not register io.netty.handler.codec.protobuf.ProtobufDecoder: queryAllPublicMethods for reflection. Reason: java.lang.NoClassDefFoundError: com/google/protobuf/ExtensionRegistryLite.
+[1/7] Initializing...                                                                                   (13,0s @ 0,34GB)
+ Version info: 'GraalVM 22.3.0 Java 19 CE'
+ Java version info: '19.0.1+10-jvmci-22.3-b08'
+ C compiler: cc (apple, x86_64, 14.0.3)
+ Garbage collector: Serial GC
+ 2 user-specific feature(s)
+ - org.eclipse.angus.activation.nativeimage.AngusActivationFeature
+ - org.springframework.aot.nativex.feature.PreComputeFieldFeature
+Field org.apache.commons.logging.LogAdapter#log4jSpiPresent set to true at build time
+Field org.apache.commons.logging.LogAdapter#log4jSlf4jProviderPresent set to true at build time
+Field org.apache.commons.logging.LogAdapter#slf4jSpiPresent set to true at build time
+Field org.apache.commons.logging.LogAdapter#slf4jApiPresent set to true at build time
+Field org.springframework.core.NativeDetector#imageCode set to true at build time
+Field org.springframework.core.KotlinDetector#kotlinPresent set to false at build time
+Field org.springframework.core.KotlinDetector#kotlinReflectPresent set to false at build time
+Field org.springframework.format.support.DefaultFormattingConversionService#jsr354Present set to false at build time
+Field org.springframework.cglib.core.AbstractClassGenerator#imageCode set to true at build time
+Field org.springframework.web.servlet.view.InternalResourceViewResolver#jstlPresent set to false at build time
+Field org.springframework.boot.logging.java.JavaLoggingSystem$Factory#PRESENT set to true at build time
+Field org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport#romePresent set to false at build time
+Field org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport#jaxb2Present set to true at build time
+Field org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport#jackson2Present set to true at build time
+Field org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport#jackson2XmlPresent set to false at build time
+Field org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport#jackson2SmilePresent set to false at build time
+Field org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport#jackson2CborPresent set to false at build time
+Field org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport#gsonPresent set to false at build time
+Field org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport#jsonbPresent set to false at build time
+Field org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport#kotlinSerializationCborPresent set to false at build time
+Field org.springframework.boot.logging.logback.LogbackLoggingSystem$Factory#PRESENT set to true at build time
+Field org.springframework.data.util.NullableWrapperConverters#GUAVA_PRESENT set to false at build time
+Field org.springframework.http.converter.json.Jackson2ObjectMapperBuilder#jackson2XmlPresent set to false at build time
+Field org.springframework.transaction.interceptor.TransactionAspectSupport#vavrPresent set to false at build time
+Field org.springframework.boot.logging.log4j2.Log4J2LoggingSystem$Factory#PRESENT set to false at build time
+Field org.springframework.transaction.interceptor.TransactionAspectSupport#reactiveStreamsPresent set to true at build time
+Field org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport#kotlinSerializationJsonPresent set to false at build time
+Field org.springframework.data.util.NullableWrapperConverters#SCALA_PRESENT set to false at build time
+Field org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport#kotlinSerializationProtobufPresent set to false at build time
+Field org.springframework.data.util.NullableWrapperConverters#VAVR_PRESENT set to false at build time
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Field org.springframework.data.repository.util.QueryExecutionConverters#VAVR_PRESENT set to false at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#jaxb2Present set to true at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#jackson2Present set to true at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#jackson2XmlPresent set to false at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#jackson2SmilePresent set to false at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#gsonPresent set to false at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#jsonbPresent set to false at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#kotlinSerializationCborPresent set to false at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#kotlinSerializationJsonPresent set to false at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#kotlinSerializationProtobufPresent set to false at build time
+Field org.springframework.web.client.RestTemplate#romePresent set to false at build time
+Field org.springframework.web.client.RestTemplate#jaxb2Present set to true at build time
+Field org.springframework.web.client.RestTemplate#jackson2Present set to true at build time
+Field org.springframework.web.client.RestTemplate#jackson2XmlPresent set to false at build time
+Field org.springframework.web.client.RestTemplate#jackson2SmilePresent set to false at build time
+Field org.springframework.web.client.RestTemplate#jackson2CborPresent set to false at build time
+Field org.springframework.web.client.RestTemplate#gsonPresent set to false at build time
+Field org.springframework.web.client.RestTemplate#jsonbPresent set to false at build time
+Field org.springframework.web.client.RestTemplate#kotlinSerializationCborPresent set to false at build time
+Field org.springframework.web.client.RestTemplate#kotlinSerializationJsonPresent set to false at build time
+Field org.springframework.web.client.RestTemplate#kotlinSerializationProtobufPresent set to false at build time
+Field org.springframework.data.util.ReactiveWrappers#PROJECT_REACTOR_PRESENT set to true at build time
+Field org.springframework.data.util.ReactiveWrappers#RXJAVA3_PRESENT set to false at build time
+Field org.springframework.data.util.ReactiveWrappers#KOTLIN_COROUTINES_PRESENT set to false at build time
+Field org.springframework.data.util.ReactiveWrappers#MUTINY_PRESENT set to false at build time
+Field org.springframework.data.repository.util.ReactiveWrapperConverters#RXJAVA3_PRESENT set to false at build time
+Field org.springframework.data.repository.util.ReactiveWrapperConverters#REACTOR_PRESENT set to true at build time
+Field org.springframework.data.repository.util.ReactiveWrapperConverters#KOTLIN_COROUTNES_PRESENT set to false at build time
+Field org.springframework.data.repository.util.ReactiveWrapperConverters#MUTINY_PRESENT set to false at build time
+Field org.springframework.core.ReactiveAdapterRegistry#reactorPresent set to true at build time
+Field org.springframework.core.ReactiveAdapterRegistry#rxjava3Present set to false at build time
+Field org.springframework.core.ReactiveAdapterRegistry#kotlinCoroutinesPresent set to false at build time
+Field org.springframework.core.ReactiveAdapterRegistry#mutinyPresent set to false at build time
+Field org.springframework.web.context.support.StandardServletEnvironment#jndiPresent set to true at build time
+Field org.springframework.web.context.support.WebApplicationContextUtils#jsfPresent set to false at build time
+Field org.springframework.web.context.request.RequestContextHolder#jsfPresent set to false at build time
+Field org.springframework.context.event.ApplicationListenerMethodAdapter#reactiveStreamsPresent set to true at build time
+Field org.springframework.boot.logging.logback.LogbackLoggingSystemProperties#JBOSS_LOGGING_PRESENT set to true at build time
+Field org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#jta12Present set to true at build time
+Field org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#ejb3Present set to false at build time
+Field org.springframework.web.reactive.function.client.DefaultWebClientBuilder#reactorNettyClientPresent set to true at build time
+Field org.springframework.web.reactive.function.client.DefaultWebClientBuilder#reactorNetty2ClientPresent set to false at build time
+Field org.springframework.web.reactive.function.client.DefaultWebClientBuilder#jettyClientPresent set to false at build time
+Field org.springframework.web.reactive.function.client.DefaultWebClientBuilder#httpComponentsClientPresent set to false at build time
+Field org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator#USER_PROVIDED_ERROR_CODES_FILE_PRESENT set to false at build time
+Field org.springframework.data.querydsl.QuerydslUtils#QUERY_DSL_PRESENT set to false at build time
+Field org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler#isContextPropagationPresent set to false at build time
+Field org.springframework.boot.jdbc.DataSourceUnwrapper#DELEGATING_DATA_SOURCE_PRESENT set to true at build time
+Field org.springframework.boot.autoconfigure.web.format.WebConversionService#JSR_354_PRESENT set to false at build time
+Field reactor.netty.internal.util.Metrics#isMicrometerAvailable set to false at build time
+Field reactor.netty.internal.util.Metrics#isTracingAvailable set to false at build time
+Field org.springframework.data.jpa.repository.query.QueryEnhancerFactory#jSqlParserPresent set to false at build time
+Field org.springframework.data.jpa.repository.query.QueryEnhancerFactory#hibernatePresent set to true at build time
+Field reactor.netty.resources.DefaultLoopIOUring#isIoUringAvailable set to false at build time
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Field reactor.netty.resources.DefaultLoopEpoll#isEpollAvailable set to false at build time
+Field reactor.netty.resources.DefaultLoopKQueue#isKqueueAvailable set to false at build time
+Field org.springframework.web.servlet.support.RequestContext#jstlPresent set to false at build time
+Field org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver#AGENT_CLASS_PRESENT set to false at build time
+[2/7] Performing analysis...  [********]                                                               (185,1s @ 4,79GB)
+  34.166 (93,19%) of 36.664 classes reachable
+  54.500 (66,92%) of 81.436 fields reachable
+ 157.646 (59,55%) of 264.735 methods reachable
+   1.363 classes,   840 fields, and 8.498 methods registered for reflection
+      89 classes,    88 fields, and    66 methods registered for JNI access
+       5 native libraries: -framework CoreServices, -framework Foundation, dl, pthread, z
+[3/7] Building universe...                                                                              (41,8s @ 4,08GB)
+[4/7] Parsing methods...      [*****]                                                                   (27,1s @ 3,92GB)
+[5/7] Inlining methods...     [***]                                                                     (19,1s @ 5,12GB)
+[6/7] Compiling methods...    [*************]                                                          (165,7s @ 2,85GB)
+[7/7] Creating image...                                                                                 (32,8s @ 4,13GB)
+  65,95MB (53,40%) for code area:   103.884 compilation units
+  57,28MB (46,38%) for image heap:  625.102 objects and 196 resources
+ 270,34KB ( 0,21%) for other data
+ 123,49MB in total
+------------------------------------------------------------------------------------------------------------------------
+Top 10 packages in code area:                               Top 10 object types in image heap:
+   1,70MB sun.security.ssl                                    14,67MB byte[] for code metadata
+   1,38MB jdk.proxy4                                           8,38MB java.lang.Class
+   1,16MB java.util                                            6,20MB java.lang.String
+ 929,06KB java.lang.invoke                                     5,94MB byte[] for java.lang.String
+ 821,77KB org.hibernate.dialect                                4,51MB byte[] for general heap data
+ 764,97KB org.hibernate.boot.model.internal                    2,87MB com.oracle.svm.core.hub.DynamicHubCompanion
+ 753,69KB org.springframework.data.jpa.repository.query        1,87MB byte[] for reflection metadata
+ 723,83KB com.sun.crypto.provider                              1,85MB byte[] for embedded resources
+ 618,57KB org.hibernate.dialect.function                       1,19MB java.lang.String[]
+ 617,62KB org.postgresql.jdbc                                  1,16MB c.o.svm.core.hub.DynamicHub$ReflectionMetadata
+  55,84MB for 1272 more packages                               7,97MB for 5804 more object types
+------------------------------------------------------------------------------------------------------------------------
+                       93,0s (17,0% of total time) in 62 GCs | Peak RSS: 6,38GB | CPU load: 6,21
+------------------------------------------------------------------------------------------------------------------------
+Produced artifacts:
+ /Users/lma/sandbox/presentation/voxxed-days-brussels/spring-demo/target/spring-demo (executable)
+ /Users/lma/sandbox/presentation/voxxed-days-brussels/spring-demo/target/spring-demo.build_artifacts.txt (txt)
+========================================================================================================================
+Finished generating 'spring-demo' in 9m 5s.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  09:17 min
+[INFO] Finished at: 2023-05-22T22:53:18+02:00
+[INFO] ------------------------------------------------------------------------

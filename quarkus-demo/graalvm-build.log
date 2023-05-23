@@ -1,0 +1,73 @@
+========================================================================================================================
+GraalVM Native Image: Generating 'quarkus-demo-1.0.0-SNAPSHOT-runner' (executable)...
+========================================================================================================================
+[1/7] Initializing...                                                                                   (12,1s @ 0,47GB)
+ Version info: 'GraalVM 22.3.0 Java 19 CE'
+ Java version info: '19.0.1+10-jvmci-22.3-b08'
+ C compiler: cc (apple, x86_64, 14.0.3)
+ Garbage collector: Serial GC
+ 7 user-specific feature(s)
+ - io.quarkus.caffeine.runtime.graal.CacheConstructorsFeature
+ - io.quarkus.hibernate.orm.runtime.graal.DisableLoggingFeature: Disables INFO logging during the analysis phase
+ - io.quarkus.jdbc.postgresql.runtime.graal.SQLXMLFeature
+ - io.quarkus.runner.Feature: Auto-generated class by Quarkus from the existing extensions
+ - io.quarkus.runtime.graal.DisableLoggingFeature: Disables INFO logging during the analysis phase
+ - org.eclipse.angus.activation.nativeimage.AngusActivationFeature
+ - org.hibernate.graalvm.internal.GraalVMStaticFeature: Hibernate ORM's static reflection registrations for GraalVM
+22:06:11,337 WARN  [io.net.res.dns.DnsServerAddressStreamProviders] Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+[2/7] Performing analysis...  [*******]                                                                (114,7s @ 3,49GB)
+  19.560 (91,21%) of 21.445 classes reachable
+  26.578 (61,60%) of 43.143 fields reachable
+  91.373 (53,30%) of 171.423 methods reachable
+     684 classes,   163 fields, and 3.416 methods registered for reflection
+      61 classes,    61 fields, and    55 methods registered for JNI access
+       5 native libraries: -framework CoreServices, -framework Foundation, dl, pthread, z
+[3/7] Building universe...                                                                              (17,6s @ 3,44GB)
+[4/7] Parsing methods...      [***]                                                                      (7,8s @ 4,83GB)
+[5/7] Inlining methods...     [***]                                                                      (3,5s @ 3,73GB)
+[6/7] Compiling methods...    [*********]                                                               (78,2s @ 3,41GB)
+[7/7] Creating image...                                                                                 (18,7s @ 2,47GB)
+  33,01MB (48,47%) for code area:    58.886 compilation units
+  34,84MB (51,17%) for image heap:  427.295 objects and 12 resources
+ 248,70KB ( 0,36%) for other data
+  68,09MB in total
+------------------------------------------------------------------------------------------------------------------------
+Top 10 packages in code area:                               Top 10 object types in image heap:
+   1,70MB sun.security.ssl                                     7,55MB byte[] for code metadata
+   1,05MB java.util                                            4,71MB java.lang.Class
+ 833,18KB java.lang.invoke                                     3,87MB java.lang.String
+ 725,70KB com.sun.crypto.provider                              3,44MB byte[] for java.lang.String
+ 499,43KB org.postgresql.jdbc                                  3,02MB byte[] for general heap data
+ 481,06KB io.quarkus.runtime.generated                         1,64MB com.oracle.svm.core.hub.DynamicHubCompanion
+ 476,77KB java.util.concurrent                               972,43KB byte[] for reflection metadata
+ 468,49KB java.lang                                          769,52KB java.lang.Object[]
+ 467,26KB sun.security.x509                                  760,33KB java.lang.String[]
+ 443,08KB java.io                                            678,98KB c.o.svm.core.hub.DynamicHub$ReflectionMetadata
+  25,53MB for 787 more packages                                6,54MB for 4377 more object types
+------------------------------------------------------------------------------------------------------------------------
+                       34,1s (12,3% of total time) in 39 GCs | Peak RSS: 5,88GB | CPU load: 6,52
+------------------------------------------------------------------------------------------------------------------------
+Produced artifacts:
+ /Users/lma/sandbox/presentation/voxxed-days-brussels/quarkus-demo/target/quarkus-demo-1.0.0-SNAPSHOT-native-image-source-jar/quarkus-demo-1.0.0-SNAPSHOT-runner (executable)
+ /Users/lma/sandbox/presentation/voxxed-days-brussels/quarkus-demo/target/quarkus-demo-1.0.0-SNAPSHOT-native-image-source-jar/quarkus-demo-1.0.0-SNAPSHOT-runner-build-output-stats.json (json)
+ /Users/lma/sandbox/presentation/voxxed-days-brussels/quarkus-demo/target/quarkus-demo-1.0.0-SNAPSHOT-native-image-source-jar/quarkus-demo-1.0.0-SNAPSHOT-runner-timing-stats.json (raw)
+ /Users/lma/sandbox/presentation/voxxed-days-brussels/quarkus-demo/target/quarkus-demo-1.0.0-SNAPSHOT-native-image-source-jar/quarkus-demo-1.0.0-SNAPSHOT-runner.build_artifacts.txt (txt)
+========================================================================================================================
+Finished generating 'quarkus-demo-1.0.0-SNAPSHOT-runner' in 4m 35s.
+[INFO] [io.quarkus.deployment.QuarkusAugmentor] Quarkus augmentation completed in 281729ms
+[INFO]
+[INFO] --- maven-failsafe-plugin:3.0.0:integration-test (default) @ quarkus-demo ---
+[INFO] Tests are skipped.
+[INFO]
+[INFO] --- maven-failsafe-plugin:3.0.0:verify (default) @ quarkus-demo ---
+[INFO] Tests are skipped.
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ quarkus-demo ---
+[INFO] Installing /Users/lma/sandbox/presentation/voxxed-days-brussels/quarkus-demo/target/quarkus-demo-1.0.0-SNAPSHOT.jar to /Users/lma/.m2/repository/be/lomagnette/voxxeddays/quarkus-demo/1.0.0-SNAPSHOT/quarkus-demo-1.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/lma/sandbox/presentation/voxxed-days-brussels/quarkus-demo/pom.xml to /Users/lma/.m2/repository/be/lomagnette/voxxeddays/quarkus-demo/1.0.0-SNAPSHOT/quarkus-demo-1.0.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  04:47 min
+[INFO] Finished at: 2023-05-22T22:10:23+02:00
+[INFO] ------------------------------------------------------------------------
