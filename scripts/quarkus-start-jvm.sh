@@ -1,3 +1,3 @@
 #!/bin/bash
-cd quarkus-demo
+cd ../quarkus-demo
 quarkus dev
