@@ -1,7 +1,7 @@
 # QuarkusVsSpringBoot
 
 
-Demo project used for talk @VoxxedDaysBrussels
+Demo project used for talk @VoxxedDaysBrussels called "Quarkus vs Spring Boot: Which Framework Reigns Supreme in 2023?"
 
 ## Prerequisites
 - JDK 17
