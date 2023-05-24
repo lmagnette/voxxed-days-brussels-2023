@@ -1,7 +1,7 @@
 package be.lomagnette.voxxeddays.springdemo;
 
 import org.springframework.boot.SpringApplication;
-//import org.springframework.boot.devtools.restart.RestartScope;
+import org.springframework.boot.devtools.restart.RestartScope;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
 import org.springframework.context.annotation.Bean;
@@ -25,7 +25,7 @@ class ContainersConfig {
 
 	@Bean
 	@ServiceConnection
-	//@RestartScope
+	@RestartScope
 	PostgreSQLContainer<?> postgreSQLContainer() {
 		return new PostgreSQLContainer<>("postgres:15-alpine");
 	}

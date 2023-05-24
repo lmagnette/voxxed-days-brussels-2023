@@ -1,3 +1,3 @@
 #!/bin/bash
-cd ./spring-demo/target/
+cd ../spring-demo/target/
 ./spring-demo
